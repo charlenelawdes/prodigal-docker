@@ -8,3 +8,4 @@ RUN apt-get update && apt-get install -y \
 RUN git clone https://github.com/hyattpd/Prodigal
 WORKDIR Prodigal
 RUN make
+RUN make install
