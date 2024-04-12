@@ -1,4 +1,4 @@
-FROM ubuntu:23.10
+FROM debian:bullseye
 
 RUN apt-get update && apt-get install -y \
     build-essential \
